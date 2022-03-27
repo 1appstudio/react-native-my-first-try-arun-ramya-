@@ -1,7 +1,14 @@
-#import "React/RCTViewManager.h"
+//#import "React/RCTViewManager.h"
+//
+//@interface RCT_EXTERN_MODULE(MyFirstTryArunRamyaViewManager, RCTViewManager)
+//
+//RCT_EXPORT_VIEW_PROPERTY(color, NSString)
+//
+//@end
+#import <React/RCTBridgeModule.h>
 
-@interface RCT_EXTERN_MODULE(MyFirstTryArunRamyaViewManager, RCTViewManager)
+@interface RCT_EXTERN_MODULE(CcavenuePayment, NSObject)
 
-RCT_EXPORT_VIEW_PROPERTY(color, NSString)
+RCT_EXTERN_METHOD(start:(NSDictionary *)paymentDetails withResolver:(RCTPromiseResolveBlock)resolve withRejecter:(RCTPromiseRejectBlock)reject)
 
 @end

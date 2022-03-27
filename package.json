@@ -36,7 +36,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/1appstudio/react-native-my-first-try-arun-ramya",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1appstudio/react-native-my-first-try-arun-ramya.git"
+  },
   "author": "appstudio@icloud.com <iappstudio@icloud.com> (https://github.com/1appstudio)",
   "license": "MIT",
   "bugs": {
@@ -143,5 +146,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }
