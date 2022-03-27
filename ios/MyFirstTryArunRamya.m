@@ -7,7 +7,7 @@
 //@end
 #import <React/RCTBridgeModule.h>
 
-@interface RCT_EXTERN_MODULE(CcavenuePayment, NSObject)
+@interface RCT_EXTERN_MODULE(MyFirstTryArunRamya, NSObject)
 
 RCT_EXTERN_METHOD(start:(NSDictionary *)paymentDetails withResolver:(RCTPromiseResolveBlock)resolve withRejecter:(RCTPromiseRejectBlock)reject)
 
